@@ -5,9 +5,9 @@ export const Footer = () => {
 
   return (
     <footer className="bg-gray-100 text-gray-800">
-      <div className="max-w-7xl mx-auto px-4 py-8">
+      <div className="max-w-7xl mx-auto px-4 py-6">
         {/* Footer Content */}
-        <div className="grid place-items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-6">
+        <div className="grid place-items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {footerContact.map((item) => {
             const { id, title, details } = item;
             return (
