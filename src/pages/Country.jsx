@@ -27,7 +27,7 @@ export const Country = () => {
 
   const searchCountry = (country) => {
     if (!search) return true;
-    return country.name.common.toLowerCase().includes(search.toLowerCase);
+    return country.name.common.toLowerCase().includes(search);
   };
 
   const filterRegion = (country) => {
@@ -69,3 +69,4 @@ export const Country = () => {
     </main>
   );
 };
+
