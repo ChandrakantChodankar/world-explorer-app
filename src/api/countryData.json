@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": 125800000,
+    "interestingFact": "Japan consists of over 6,800 islands. It has more vending machines than any other country in the world."
+  },
+  {
+    "id": 2,
+    "countryName": "Canada",
+    "capital": "Ottawa",
+    "population": 38930000,
+    "interestingFact": "Canada has the longest coastline in the world. It has more lakes than the rest of the world combined."
+  },
+  {
+    "id": 3,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": 215300000,
+    "interestingFact": "The Amazon Rainforest is mostly located in Brazil. Brazil is the only country in South America that speaks Portuguese."
+  },
+  {
+    "id": 4,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "population": 26800000,
+    "interestingFact": "Australia is home to more kangaroos than people.It has the largest coral reef system in the world – the Great Barrier Reef."
+  },
+  {
+    "id": 5,
+    "countryName": "Germany",
+    "capital": "Berlin",
+    "population": 83520000,
+    "interestingFact": "Germany is known for its engineering and automotive industry. It has over 1,500 types of sausages."
+  },
+  {
+    "id": 6,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": 1420000000,
+    "interestingFact": "India is the world's largest democracy. Chess and yoga originated in India."
+  },
+  {
+    "id": 7,
+    "countryName": "Egypt",
+    "capital": "Cairo",
+    "population": 111000000,
+    "interestingFact": "Home to one of the oldest civilizations and the Great Pyramids. The Nile River runs through Egypt and is the longest river in the world."
+  },
+  {
+    "id": 8,
+    "countryName": "France",
+    "capital": "Paris",
+    "population": 68000000,
+    "interestingFact": "France is the most visited country in the world. The Eiffel Tower was originally a temporary structure."
+  },
+  {
+    "id": 9,
+    "countryName": "South Africa",
+    "capital": "Pretoria (administrative), Cape Town (legislative), Bloemfontein (judicial)",
+    "population": 61000000,
+    "interestingFact": "It has three capital cities. It’s known as the 'Rainbow Nation' due to its diverse cultures."
+  },
+  {
+    "id": 10,
+    "countryName": "Norway",
+    "capital": "Oslo",
+    "population": 5500000,
+    "interestingFact": "Norway is known for its stunning fjords. It consistently ranks high in global happiness and quality of life indexes."
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Find us",
+    "details": "India"
+  },
+  {
+    "id": 2,
+    "title": "Call us",
+    "details": "9876543210"
+  },
+  {
+    "id": 3,
+    "title": "Mail us",
+    "details": "mail@example.com"
+  }
+]
