@@ -28,7 +28,7 @@ A modern, interactive web application that allows users to discover fascinating 
 
 ## 🚀 Demo
 
-[Live Demo](https://your-demo-link.com) <!-- Add your deployment link -->
+[Live Demo]([https://your-demo-link.com](https://worldexplorerapp.netlify.app/)) <!-- Add your deployment link -->
 
 ## 📸 Screenshots
 
