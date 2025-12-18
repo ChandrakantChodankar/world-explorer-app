@@ -38,6 +38,13 @@ export const Header = () => {
       : `${baseClasses} text-white hover:text-blue-400`;
   };
 
+  const getLinkClassNameMobile = ({ isActive }) => {
+    const baseClasses = "block px-6 py-4 transition-colors";
+    return isActive
+      ? `${baseClasses} text-blue-400 bg-gray-800/50`
+      : `${baseClasses} text-white hover:bg-gray-800/30 hover:text-blue-400`;
+  };
+  
   const navLinks = [
     { to: "/", label: "Home" },
     { to: "/about", label: "About" },
@@ -69,7 +76,6 @@ export const Header = () => {
           </ul>
 
           {/* mobile menu button */}
-
           <button
             onClick={toggleMenu}
             className="md:hidden p-2 rounded-lg hover:bg-gray-700 transition-colors"
@@ -102,12 +108,7 @@ export const Header = () => {
                     <NavLink
                       to={link.to}
                       onClick={closeMenu}
-                      className={({ isActive }) => {
-                        const baseClasses = "block px-6 py-4 transition-colors";
-                        return isActive
-                          ? `${baseClasses} text-blue-400 bg-gray-800/50`
-                          : `${baseClasses} text-white hover:bg-gray-800/30 hover:text-blue-400`;
-                      }}
+                      className={getLinkClassNameMobile}
                     >
                       {link.label}
                     </NavLink>
@@ -121,3 +122,4 @@ export const Header = () => {
     </header>
   );
 };
+
